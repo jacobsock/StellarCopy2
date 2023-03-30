@@ -96,14 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13BE93BE29D234C5008A4994 /* Models */ = {
+		13BE93BE29D234C5008A4994 /* ModelsOld */ = {
 			isa = PBXGroup;
 			children = (
 				13BE93C229D2356F008A4994 /* Horoscope.swift */,
 				AB4288CD29D2385500889727 /* Moon.swift */,
 				13BE93C429D3829B008A4994 /* User.swift */,
 			);
-			path = Models;
+			path = ModelsOld;
 			sourceTree = "<group>";
 		};
 		13BE93BF29D234CE008A4994 /* ViewModels */ = {
@@ -141,7 +141,7 @@
 			children = (
 				ABD7FF8629D6050B0012E741 /* StellarCopy.entitlements */,
 				13BE93BF29D234CE008A4994 /* ViewModels */,
-				13BE93BE29D234C5008A4994 /* Models */,
+				13BE93BE29D234C5008A4994 /* ModelsOld */,
 				AB4288BB29D21DFF00889727 /* Views */,
 				AB42889029D2122B00889727 /* StellarCopyApp.swift */,
 				AB42889429D2122D00889727 /* Assets.xcassets */,
