@@ -24,9 +24,6 @@
 		5DFE3D6F29D6260100F7373E /* HouseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D6229D6260100F7373E /* HouseInfoView.swift */; };
 		5DFE3D7029D6260100F7373E /* ChartInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D6329D6260100F7373E /* ChartInfoView.swift */; };
 		5DFE3D7129D6260100F7373E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D6429D6260100F7373E /* ChartView.swift */; };
-		5DFE3D7629D6264E00F7373E /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D7329D6264E00F7373E /* ChartModel.swift */; };
-		5DFE3D7729D6264E00F7373E /* HorescopeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D7429D6264E00F7373E /* HorescopeModel.swift */; };
-		5DFE3D7829D6264E00F7373E /* LunarEventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D7529D6264E00F7373E /* LunarEventDetail.swift */; };
 		AB42889129D2122B00889727 /* StellarCopyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42889029D2122B00889727 /* StellarCopyApp.swift */; };
 		AB42889329D2122B00889727 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42889229D2122B00889727 /* ContentView.swift */; };
 		AB42889529D2122D00889727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42889429D2122D00889727 /* Assets.xcassets */; };
@@ -79,9 +76,6 @@
 		5DFE3D6229D6260100F7373E /* HouseInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseInfoView.swift; sourceTree = "<group>"; };
 		5DFE3D6329D6260100F7373E /* ChartInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartInfoView.swift; sourceTree = "<group>"; };
 		5DFE3D6429D6260100F7373E /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
-		5DFE3D7329D6264E00F7373E /* ChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
-		5DFE3D7429D6264E00F7373E /* HorescopeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorescopeModel.swift; sourceTree = "<group>"; };
-		5DFE3D7529D6264E00F7373E /* LunarEventDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunarEventDetail.swift; sourceTree = "<group>"; };
 		AB42888D29D2122B00889727 /* StellarCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB42889029D2122B00889727 /* StellarCopyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarCopyApp.swift; sourceTree = "<group>"; };
 		AB42889229D2122B00889727 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -184,16 +178,6 @@
 			path = ChartComponents;
 			sourceTree = "<group>";
 		};
-		5DFE3D7229D6264E00F7373E /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				5DFE3D7329D6264E00F7373E /* ChartModel.swift */,
-				5DFE3D7429D6264E00F7373E /* HorescopeModel.swift */,
-				5DFE3D7529D6264E00F7373E /* LunarEventDetail.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		AB42888429D2122B00889727 = {
 			isa = PBXGroup;
 			children = (
@@ -217,7 +201,6 @@
 		AB42888F29D2122B00889727 /* StellarCopy */ = {
 			isa = PBXGroup;
 			children = (
-				5DFE3D7229D6264E00F7373E /* Models */,
 				5DFE3D5529D6260100F7373E /* Components */,
 				ABD7FF8629D6050B0012E741 /* StellarCopy.entitlements */,
 				13BE93BF29D234CE008A4994 /* ViewModels */,
@@ -403,14 +386,12 @@
 				AB4288C129D2215700889727 /* CalendarView.swift in Sources */,
 				AB4288BF29D21E9B00889727 /* ProfileView.swift in Sources */,
 				AB4288CE29D2385500889727 /* Moon.swift in Sources */,
-				5DFE3D7829D6264E00F7373E /* LunarEventDetail.swift in Sources */,
 				5DFE3D6B29D6260100F7373E /* StellarTitleView.swift in Sources */,
 				5DFE3D6D29D6260100F7373E /* TalonsLeaves.swift in Sources */,
 				5DFE3D6929D6260100F7373E /* DailyHoroscopeTextView.swift in Sources */,
 				AB4288D029D238C500889727 /* MoonViewModel.swift in Sources */,
 				5DFE3D6A29D6260100F7373E /* HistoryHoro.swift in Sources */,
 				13BE93C729D4A84E008A4994 /* UserViewModel.swift in Sources */,
-				5DFE3D7629D6264E00F7373E /* ChartModel.swift in Sources */,
 				5DFE3D6E29D6260100F7373E /* GoldBarView.swift in Sources */,
 				AB42889329D2122B00889727 /* ContentView.swift in Sources */,
 				AB4288C529D222C600889727 /* ChartView.swift in Sources */,
@@ -419,7 +400,6 @@
 				5DFE3D7029D6260100F7373E /* ChartInfoView.swift in Sources */,
 				AB42889129D2122B00889727 /* StellarCopyApp.swift in Sources */,
 				5DFE3D6F29D6260100F7373E /* HouseInfoView.swift in Sources */,
-				5DFE3D7729D6264E00F7373E /* HorescopeModel.swift in Sources */,
 				ABD7FF8829D61A620012E741 /* RitualView.swift in Sources */,
 				AB4288BD29D21E4A00889727 /* MainTabView.swift in Sources */,
 				5DFE3D6529D6260100F7373E /* infoInputTextFields.swift in Sources */,
