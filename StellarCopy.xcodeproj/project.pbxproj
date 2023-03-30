@@ -11,6 +11,19 @@
 		13BE93C329D2356F008A4994 /* Horoscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE93C229D2356F008A4994 /* Horoscope.swift */; };
 		13BE93C529D3829B008A4994 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE93C429D3829B008A4994 /* User.swift */; };
 		13BE93C729D4A84E008A4994 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE93C629D4A84E008A4994 /* UserViewModel.swift */; };
+		5DFE3D6529D6260100F7373E /* infoInputTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D5629D6260100F7373E /* infoInputTextFields.swift */; };
+		5DFE3D6629D6260100F7373E /* HoroscopeIconButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D5829D6260100F7373E /* HoroscopeIconButtons.swift */; };
+		5DFE3D6729D6260100F7373E /* CareerHoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D5929D6260100F7373E /* CareerHoro.swift */; };
+		5DFE3D6829D6260100F7373E /* RomCompatabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D5A29D6260100F7373E /* RomCompatabilityView.swift */; };
+		5DFE3D6929D6260100F7373E /* DailyHoroscopeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D5B29D6260100F7373E /* DailyHoroscopeTextView.swift */; };
+		5DFE3D6A29D6260100F7373E /* HistoryHoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D5C29D6260100F7373E /* HistoryHoro.swift */; };
+		5DFE3D6B29D6260100F7373E /* StellarTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D5D29D6260100F7373E /* StellarTitleView.swift */; };
+		5DFE3D6C29D6260100F7373E /* LunarEventCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D5E29D6260100F7373E /* LunarEventCapsuleView.swift */; };
+		5DFE3D6D29D6260100F7373E /* TalonsLeaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D5F29D6260100F7373E /* TalonsLeaves.swift */; };
+		5DFE3D6E29D6260100F7373E /* GoldBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D6029D6260100F7373E /* GoldBarView.swift */; };
+		5DFE3D6F29D6260100F7373E /* HouseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D6229D6260100F7373E /* HouseInfoView.swift */; };
+		5DFE3D7029D6260100F7373E /* ChartInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D6329D6260100F7373E /* ChartInfoView.swift */; };
+		5DFE3D7129D6260100F7373E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFE3D6429D6260100F7373E /* ChartView.swift */; };
 		AB42889129D2122B00889727 /* StellarCopyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42889029D2122B00889727 /* StellarCopyApp.swift */; };
 		AB42889329D2122B00889727 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42889229D2122B00889727 /* ContentView.swift */; };
 		AB42889529D2122D00889727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42889429D2122D00889727 /* Assets.xcassets */; };
@@ -50,6 +63,19 @@
 		13BE93C229D2356F008A4994 /* Horoscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscope.swift; sourceTree = "<group>"; };
 		13BE93C429D3829B008A4994 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		13BE93C629D4A84E008A4994 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		5DFE3D5629D6260100F7373E /* infoInputTextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoInputTextFields.swift; sourceTree = "<group>"; };
+		5DFE3D5829D6260100F7373E /* HoroscopeIconButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoroscopeIconButtons.swift; sourceTree = "<group>"; };
+		5DFE3D5929D6260100F7373E /* CareerHoro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareerHoro.swift; sourceTree = "<group>"; };
+		5DFE3D5A29D6260100F7373E /* RomCompatabilityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomCompatabilityView.swift; sourceTree = "<group>"; };
+		5DFE3D5B29D6260100F7373E /* DailyHoroscopeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyHoroscopeTextView.swift; sourceTree = "<group>"; };
+		5DFE3D5C29D6260100F7373E /* HistoryHoro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryHoro.swift; sourceTree = "<group>"; };
+		5DFE3D5D29D6260100F7373E /* StellarTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StellarTitleView.swift; sourceTree = "<group>"; };
+		5DFE3D5E29D6260100F7373E /* LunarEventCapsuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunarEventCapsuleView.swift; sourceTree = "<group>"; };
+		5DFE3D5F29D6260100F7373E /* TalonsLeaves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalonsLeaves.swift; sourceTree = "<group>"; };
+		5DFE3D6029D6260100F7373E /* GoldBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldBarView.swift; sourceTree = "<group>"; };
+		5DFE3D6229D6260100F7373E /* HouseInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseInfoView.swift; sourceTree = "<group>"; };
+		5DFE3D6329D6260100F7373E /* ChartInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartInfoView.swift; sourceTree = "<group>"; };
+		5DFE3D6429D6260100F7373E /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		AB42888D29D2122B00889727 /* StellarCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB42889029D2122B00889727 /* StellarCopyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarCopyApp.swift; sourceTree = "<group>"; };
 		AB42889229D2122B00889727 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +142,42 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		5DFE3D5529D6260100F7373E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5DFE3D5629D6260100F7373E /* infoInputTextFields.swift */,
+				5DFE3D5729D6260100F7373E /* HoroComponents */,
+				5DFE3D5D29D6260100F7373E /* StellarTitleView.swift */,
+				5DFE3D5E29D6260100F7373E /* LunarEventCapsuleView.swift */,
+				5DFE3D5F29D6260100F7373E /* TalonsLeaves.swift */,
+				5DFE3D6029D6260100F7373E /* GoldBarView.swift */,
+				5DFE3D6129D6260100F7373E /* ChartComponents */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5DFE3D5729D6260100F7373E /* HoroComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5DFE3D5829D6260100F7373E /* HoroscopeIconButtons.swift */,
+				5DFE3D5929D6260100F7373E /* CareerHoro.swift */,
+				5DFE3D5A29D6260100F7373E /* RomCompatabilityView.swift */,
+				5DFE3D5B29D6260100F7373E /* DailyHoroscopeTextView.swift */,
+				5DFE3D5C29D6260100F7373E /* HistoryHoro.swift */,
+			);
+			path = HoroComponents;
+			sourceTree = "<group>";
+		};
+		5DFE3D6129D6260100F7373E /* ChartComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5DFE3D6229D6260100F7373E /* HouseInfoView.swift */,
+				5DFE3D6329D6260100F7373E /* ChartInfoView.swift */,
+				5DFE3D6429D6260100F7373E /* ChartView.swift */,
+			);
+			path = ChartComponents;
+			sourceTree = "<group>";
+		};
 		AB42888429D2122B00889727 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +201,7 @@
 		AB42888F29D2122B00889727 /* StellarCopy */ = {
 			isa = PBXGroup;
 			children = (
+				5DFE3D5529D6260100F7373E /* Components */,
 				ABD7FF8629D6050B0012E741 /* StellarCopy.entitlements */,
 				13BE93BF29D234CE008A4994 /* ViewModels */,
 				13BE93BE29D234C5008A4994 /* ModelsOld */,
@@ -323,16 +386,29 @@
 				AB4288C129D2215700889727 /* CalendarView.swift in Sources */,
 				AB4288BF29D21E9B00889727 /* ProfileView.swift in Sources */,
 				AB4288CE29D2385500889727 /* Moon.swift in Sources */,
+				5DFE3D6B29D6260100F7373E /* StellarTitleView.swift in Sources */,
+				5DFE3D6D29D6260100F7373E /* TalonsLeaves.swift in Sources */,
+				5DFE3D6929D6260100F7373E /* DailyHoroscopeTextView.swift in Sources */,
 				AB4288D029D238C500889727 /* MoonViewModel.swift in Sources */,
+				5DFE3D6A29D6260100F7373E /* HistoryHoro.swift in Sources */,
 				13BE93C729D4A84E008A4994 /* UserViewModel.swift in Sources */,
+				5DFE3D6E29D6260100F7373E /* GoldBarView.swift in Sources */,
 				AB42889329D2122B00889727 /* ContentView.swift in Sources */,
 				AB4288C529D222C600889727 /* ChartView.swift in Sources */,
+				5DFE3D6829D6260100F7373E /* RomCompatabilityView.swift in Sources */,
+				5DFE3D6C29D6260100F7373E /* LunarEventCapsuleView.swift in Sources */,
+				5DFE3D7029D6260100F7373E /* ChartInfoView.swift in Sources */,
 				AB42889129D2122B00889727 /* StellarCopyApp.swift in Sources */,
+				5DFE3D6F29D6260100F7373E /* HouseInfoView.swift in Sources */,
 				ABD7FF8829D61A620012E741 /* RitualView.swift in Sources */,
 				AB4288BD29D21E4A00889727 /* MainTabView.swift in Sources */,
+				5DFE3D6529D6260100F7373E /* infoInputTextFields.swift in Sources */,
 				13BE93C129D23504008A4994 /* HoroscopeViewModel.swift in Sources */,
 				AB4288C729D22E5500889727 /* LoginView.swift in Sources */,
+				5DFE3D7129D6260100F7373E /* ChartView.swift in Sources */,
 				13BE93C329D2356F008A4994 /* Horoscope.swift in Sources */,
+				5DFE3D6729D6260100F7373E /* CareerHoro.swift in Sources */,
+				5DFE3D6629D6260100F7373E /* HoroscopeIconButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
