@@ -37,6 +37,9 @@
 		AB4288C729D22E5500889727 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288C629D22E5500889727 /* LoginView.swift */; };
 		AB4288CE29D2385500889727 /* Moon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288CD29D2385500889727 /* Moon.swift */; };
 		AB4288D029D238C500889727 /* MoonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4288CF29D238C500889727 /* MoonViewModel.swift */; };
+		ABC3E51129D681B000C44D1B /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3E50E29D681B000C44D1B /* ChartModel.swift */; };
+		ABC3E51229D681B000C44D1B /* HorescopeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3E50F29D681B000C44D1B /* HorescopeModel.swift */; };
+		ABC3E51329D681B000C44D1B /* LunarEventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3E51029D681B000C44D1B /* LunarEventDetail.swift */; };
 		ABD7FF8829D61A620012E741 /* RitualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7FF8729D61A620012E741 /* RitualView.swift */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +94,9 @@
 		AB4288C629D22E5500889727 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AB4288CD29D2385500889727 /* Moon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon.swift; sourceTree = "<group>"; };
 		AB4288CF29D238C500889727 /* MoonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonViewModel.swift; sourceTree = "<group>"; };
+		ABC3E50E29D681B000C44D1B /* ChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		ABC3E50F29D681B000C44D1B /* HorescopeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorescopeModel.swift; sourceTree = "<group>"; };
+		ABC3E51029D681B000C44D1B /* LunarEventDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunarEventDetail.swift; sourceTree = "<group>"; };
 		ABD7FF8629D6050B0012E741 /* StellarCopy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StellarCopy.entitlements; sourceTree = "<group>"; };
 		ABD7FF8729D61A620012E741 /* RitualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,6 +205,7 @@
 		AB42888F29D2122B00889727 /* StellarCopy */ = {
 			isa = PBXGroup;
 			children = (
+				ABC3E50D29D681B000C44D1B /* Models */,
 				5DFE3D5529D6260100F7373E /* Components */,
 				ABD7FF8629D6050B0012E741 /* StellarCopy.entitlements */,
 				13BE93BF29D234CE008A4994 /* ViewModels */,
@@ -247,6 +254,16 @@
 				AB4288C629D22E5500889727 /* LoginView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		ABC3E50D29D681B000C44D1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABC3E50E29D681B000C44D1B /* ChartModel.swift */,
+				ABC3E50F29D681B000C44D1B /* HorescopeModel.swift */,
+				ABC3E51029D681B000C44D1B /* LunarEventDetail.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,6 +400,8 @@
 				AB4288C129D2215700889727 /* CalendarView.swift in Sources */,
 				AB4288BF29D21E9B00889727 /* ProfileView.swift in Sources */,
 				AB4288CE29D2385500889727 /* Moon.swift in Sources */,
+				ABC3E51329D681B000C44D1B /* LunarEventDetail.swift in Sources */,
+				ABC3E51229D681B000C44D1B /* HorescopeModel.swift in Sources */,
 				5DFE3D6B29D6260100F7373E /* StellarTitleView.swift in Sources */,
 				5DFE3D6D29D6260100F7373E /* TalonsLeaves.swift in Sources */,
 				5DFE3D6929D6260100F7373E /* DailyHoroscopeTextView.swift in Sources */,
@@ -401,6 +420,7 @@
 				5DFE3D6529D6260100F7373E /* infoInputTextFields.swift in Sources */,
 				13BE93C129D23504008A4994 /* HoroscopeViewModel.swift in Sources */,
 				AB4288C729D22E5500889727 /* LoginView.swift in Sources */,
+				ABC3E51129D681B000C44D1B /* ChartModel.swift in Sources */,
 				5DFE3D7129D6260100F7373E /* ChartView.swift in Sources */,
 				13BE93C329D2356F008A4994 /* Horoscope.swift in Sources */,
 				5DFE3D6729D6260100F7373E /* CareerHoro.swift in Sources */,
