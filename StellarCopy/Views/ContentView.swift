@@ -9,45 +9,13 @@ import SwiftUI
 struct ContentView: View {
     @Environment(\.colorScheme) var colorScheme
     
+    
+    @State private var userIsLoggedIn: Bool = false
+    
     var body: some View {
-        NavigationStack {
-            VStack(spacing: -10) {
-                
-                VStack {
-                    
-                    TabView {
-                        DailyHoroscopeTextView()
-                            .padding()
-                        ChartView()
-                        LunarEventCapsuleView()
-    //                  MARK: LunarCalView()
-                    }
-                    .tabViewStyle(.page)
-                    
-                }
-            }
-//            .toolbar {
-//                Image(systemName: "gear")
-//                    .foregroundColor(Color(hue: 0.119, saturation: 0.62, brightness: 0.908))
-//            }
-            Spacer()
-        }
+        
+        userIsLoggedIn ? AnyView(OmarsTabView()): AnyView(LoginView(userIsLoggedIn: self.$userIsLoggedIn))
     }
-    
-// MARK: Code that loops through UIFont families
-//      init() {
-//          for familyName in UIFont.familyNames {
-//              print(familyName)
-//
-//              for fontName in UIFont.fontNames(forFamilyName: familyName) {
-//                  print("-- \(fontName)")
-//              }
-//          }
-//      }
-    
-    
-    
-    
 }
 
 
